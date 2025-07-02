@@ -1,0 +1,5 @@
+version: '3.8'
+
+services:
+  evolution-api:
+    command: ["sh", "-c", "while true; do sleep 30; done"]
